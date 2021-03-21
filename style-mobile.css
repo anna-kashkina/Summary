@@ -1,0 +1,55 @@
+@media screen and (max-width: 1400px) {
+    .right-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .about-box {
+        padding: 0 50px;
+        margin-bottom: 50px;
+        max-width: none;
+        text-align: justify;
+    }
+    .skill-box {
+        max-width: 365px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .skill-title-about {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .portfolio-title:after {
+        top: 50px;
+    }
+    .slider-title-box {
+        position: relative;
+    }
+    .skill-title {
+        text-align: center;
+    }
+    .left-container-wrapper {
+        margin-right: 0;
+    }
+    .skill-title:after {
+        left: 175px;
+        width: 530px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .main-container {
+        flex-wrap: wrap;
+    }
+    .left-container-wrapper {
+        max-width: inherit;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+

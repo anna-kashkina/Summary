@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'montserratlight';
+    src: url('./font/Montserrat/montserrat-light-webfont.eot');
+    src: url('./font/Montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./font/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('./font/Montserrat/montserrat-light-webfont.woff') format('woff'),
+    url('./font/Montserrat/montserrat-light-webfont.ttf') format('truetype'),
+    url('./font/Montserrat/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserratlight;
+    cursor: url(./img/cursor-arrow_blue.png), default;
+}
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #8289a6;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #fafbff;
+}
+.main {
+   background-color: #fafbff;
+    overflow: hidden;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+.photo {
+    height: 600px;
+    margin-bottom: 50px;
+    border-radius: 65px;
+    border: 3px solid #ffffff;
+}
+.text {}
+.title {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: url(./img/cursor-arrow_greey.png), default;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    cursor: url(./img/cursor-arrow_greey.png), default;
+}
+.subtitle:after {
+    position: absolute;
+    content: "";
+    top: 60px;
+    left: 65px;
+    height: 4px;
+    width: 245px;
+    background-color: #ffffff17;
+    border-radius: 50%;
+}
+.left-container-wrapper {
+    max-width: 425px;
+    background-color: #26386c;
+    padding: 35px;
+    margin-right: 50px;
+    cursor: url(./img/cursor-arrow_greey.png), default;
+}
+.left-container-desc {
+    color: white;
+    cursor: url(./img/cursor-arrow_greey.png), default;
+}
+.icon {
+    width: 50px;
+    margin-right: 20px;
+}
+.icon-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: url(./img/cursor-arrow_greey.png), default;
+    transition: 0.3s; /*Время эффекта */
+}
+.icon-box:hover {
+    transform: scale(1.1);  /*Увеличиваем масштаб */
+}
+.icon-box-txt {
+    cursor: url(./img/cursor-hand_3.png), pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.right-container {
+    max-width: 935px;
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+
+}
+.right-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.skill-box {
+    font-size: 30px;
+    margin: 0 50px;
+}
+.about-box {
+    max-width: 355px;
+    padding-right: 50px;
+}
+.skill-box .html-title:nth-child(2n):after {
+    width: 185px;
+    left: 129px;
+}
+.skill-box .html-title:nth-child(3n):after {
+    left: 129px;
+    width: 175px;
+}
+.skill-box .html-title:nth-child(4n):after {
+     width: 130px;
+}
+.skill-box .html-title:nth-child(5n):after {
+    left: 129px;
+    width: 190px;
+}
+.skill-box .html-title:nth-child(6n):after {
+    width: 160px;
+}
+.skill-box .html-title:nth-child(7n):after {
+    width: 140px;
+    left: 129px;
+}
+.skill-title {
+    margin-bottom: 65px;
+    font-size: 40px;
+}
+.skill-title-about {
+    margin-bottom: 55px;
+    font-size: 40px;
+}
+.about-desc {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2;
+}
+.skill-title:after {
+     position: absolute;
+     content: "";
+     top: 100px;
+     left: 15px;
+     height: 5px;
+     width: 95%;
+     background-color: #26386c80;
+    border-radius: 50%;
+ }
+.skill-box-line {
+    margin-bottom: 25px;
+    position: relative;
+}
+.html-title:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 130px;
+    height: 30px;
+    width: 265px;
+    background-color: #26386c;
+    border-radius: 15px;
+}
+.html-title:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 200px;
+    background-color: #8289a6;
+    border-radius: 15px;
+}
+.html-title {}
+.portfolio-title {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.portfolio-title:after {
+    position: absolute;
+    content: "";
+    top: 650px;
+    left: 15px;
+    height: 5px;
+    width: 95%;
+    background-color: #26386c80;
+    border-radius: 50%;
+}
+.slider-img {
+    border-radius: 55px;
+    border: 5px solid #26386c80;
+    width: 410px;
+}
+.slider-desc {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.slider-container {
+    margin: 0 auto 45px;
+    max-width: 420px;
+}
+.slider-figure {
+    outline: none;
+}
+.arrow-left {
+    background-image: url("./img/arrow-left-icon.png");
+    height: 40px;
+    width: 40px;
+    left: -55px;
+}
+.arrow-right {
+    height: 40px;
+    width: 40px;
+    background-image: url("./img/arrow-icon.png");
+    right: -50px;
+}
+.arrow {
+    background-color: inherit;
+    background-size: cover;
+    outline: none;
+    position: absolute;
+    z-index: 2;
+    top: 340px;
+    border: none;
+    cursor: url(./img/cursor-hand_2.png), pointer;
+ }
+.box-box {}
+.slider-title-box {
+    margin: 0 auto;
+    max-width: 555px;
+}
+/*
+body {
+    scrollbar-arrow-color: #fff; !* Цвет стрелок *!
+    scrollbar-base-color: #ffa12d; !* Цвет полосы прокрутки *!
+    scrollbar-shadow-color: #fed189; !* Цвет тени *!
+    background: #fed189; !* Цвет фона *!
+    height: 100%;
+}*/
