@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'montserratlight';
-    src: url('./font/Montserrat/montserrat-light-webfont.eot');
-    src: url('./font/Montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('./font/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
-    url('./font/Montserrat/montserrat-light-webfont.woff') format('woff'),
-    url('./font/Montserrat/montserrat-light-webfont.ttf') format('truetype'),
-    url('./font/Montserrat/montserrat-light-webfont.svg#montserratlight') format('svg');
+    src: url('../font/Montserrat/montserrat-light-webfont.eot');
+    src: url('../font/Montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('../font/Montserrat/montserrat-light-webfont.woff') format('woff'),
+    url('../font/Montserrat/montserrat-light-webfont.ttf') format('truetype'),
+    url('../font/Montserrat/montserrat-light-webfont.svg#montserratlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     font-family: montserratlight;
-    cursor: url(./img/cursor-arrow_blue.png), default;
+    cursor: url(../img/sammary/cursor-arrow_blue.png), default;
 }
 ::-webkit-scrollbar {
     width: 14px;
@@ -44,13 +44,13 @@
     font-size: 45px;
     text-align: center;
     margin-bottom: 30px;
-    cursor: url(./img/cursor-arrow_greey.png), default;
+    cursor: url(../img/sammary/cursor-arrow_greey.png), default;
 }
 .subtitle {
     text-align: center;
     margin-bottom: 100px;
     position: relative;
-    cursor: url(./img/cursor-arrow_greey.png), default;
+    cursor: url(../img/sammary/cursor-arrow_greey.png), default;
 }
 .subtitle:after {
     position: absolute;
@@ -67,11 +67,11 @@
     background-color: #26386c;
     padding: 35px;
     margin-right: 50px;
-    cursor: url(./img/cursor-arrow_greey.png), default;
+    cursor: url(../img/sammary/cursor-arrow_greey.png), default;
 }
 .left-container-desc {
     color: white;
-    cursor: url(./img/cursor-arrow_greey.png), default;
+    cursor: url(../img/sammary/cursor-arrow_greey.png), default;
 }
 .icon {
     width: 50px;
@@ -81,14 +81,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    cursor: url(./img/cursor-arrow_greey.png), default;
+    cursor: url(../img/sammary/cursor-arrow_greey.png), default;
     transition: 0.3s; /*Время эффекта */
 }
 .icon-box:hover {
     transform: scale(1.1);  /*Увеличиваем масштаб */
 }
 .icon-box-txt {
-    cursor: url(./img/cursor-hand_3.png), pointer;
+    cursor: url(../img/sammary/cursor-hand_3.png), pointer;
     font-size: 20px;
     text-decoration: none;
     color: white;
@@ -202,6 +202,10 @@
     border-radius: 55px;
     border: 5px solid #26386c80;
     width: 410px;
+    /*cursor: pointer;*/
+}
+.slider-momento-food {
+   background: url("../img/sammary/momento.jpg") 0 0 no-repeat;
 }
 .slider-desc {
     text-align: center;
@@ -216,7 +220,7 @@
     outline: none;
 }
 .arrow-left {
-    background-image: url("./img/arrow-left-icon.png");
+    background-image: url("../img/sammary/arrow-left-icon.png");
     height: 40px;
     width: 40px;
     left: -55px;
@@ -224,7 +228,7 @@
 .arrow-right {
     height: 40px;
     width: 40px;
-    background-image: url("./img/arrow-icon.png");
+    background-image: url("../img/sammary/arrow-icon.png");
     right: -50px;
 }
 .arrow {
@@ -235,7 +239,7 @@
     z-index: 2;
     top: 340px;
     border: none;
-    cursor: url(./img/cursor-hand_2.png), pointer;
+    cursor: url(../img/sammary/cursor-hand_2.png), pointer;
  }
 .box-box {}
 .slider-title-box {

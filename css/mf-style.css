@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*font-family: ubuntu;*/
+}
+/*@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/ubuntumono-b-webfont.eot');
+    src: url('../fonts/ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ubuntumono-b-webfont.woff2') format('woff2'),
+    url('../fonts/ubuntumono-b-webfont.woff') format('woff'),
+    url('../fonts/ubuntumono-b-webfont.ttf') format('truetype'),
+    url('../fonts/ubuntumono-b-webfont.svg#ubuntu_monobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+.wrapper-all {
+    position: relative;
+    overflow: hidden;
+}
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    padding-bottom: 125px;
+    background: #f3f3f3;
+}
+.logo {
+    position: relative;
+    z-index: 6;
+    width: 122px;
+    background-size: contain;
+    top: 20px;
+}
+.red-line {
+    position: absolute;
+    top: -10px;
+    left: -600px;
+    background: url(./../img/momento-food/header_bg.png) 0 0 no-repeat;
+    width: 1235px;
+    height: 97px;
+    background-size: contain;
+    z-index: 5;
+}
+.bitmap2x {
+    width: 800px;
+    left: 60px;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+.main {
+    margin-bottom: 225px;
+}
+.red-bit {
+    position: relative;
+}
+.bitmap2 {
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+}
+.bitmap3 {
+    top: 255px;
+    left: 0;
+    position: absolute;
+}
+.bitmap1 {
+    top: 110px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+.arrow-pizza-slice {
+    top: -20px;
+    left: -66px;
+    position: absolute;
+}
+.mf-description-phone {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.momento-delivery {
+    position: relative;
+    background: #f3f3f3;
+    margin-bottom: 50px;
+}
+.bitmap2-720 {
+    display: none;
+}
+.bitmap3-720 {
+    display: none;
+}
+.bitmap3-480 {
+    display: none;
+}
+.momento-deliver-knif {
+    position: absolute;
+    z-index: 3;
+    content: '';
+    height: 40vh;
+    width: 100%;
+    top: 333px;
+    right: 0;
+    background: url(./../img/momento-food/app-bg-4.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.left-block {
+    position: relative;
+    padding-top: 105px;
+    font-size: 17px;
+}
+.right-block {
+    max-width: 390px;
+}
+.left-block-button-box {}
+.momento {
+    position: relative;
+    z-index: 5;
+}
+.momento-yellow-line {
+    position: absolute;
+    width: 135px;
+    height: 8px;
+    top: 130px;
+    left: 183px;
+    background-color: #ffdd00;
+}
+.delivery {
+    margin-bottom: 40px;
+}
+.mf-description {
+    font-size: 15px;
+    max-width: 465px;
+    margin-bottom: 20px;
+}
+.left-block-button-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.end-description-button-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.app-store {}
+.google-play {}
+.rectangle2 {
+    top: 325px;
+    right: 915px;
+}
+.google-play-badge {}
+.iphone {
+    position: relative;
+    z-index: 4;
+}
+.iphone-1 {
+    display: none;
+}
+.three-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+    z-index: 3;
+    position: relative;
+    padding: 0 20px;
+}
+.three-desc-box {
+    max-width: 310px;
+}
+.group_7 {}
+.group_8 {}
+.group_9 {}
+.block-title {
+    padding-top: 23px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 700;
+}
+.block-bottom-title {}
+.iphone-yellow-line {
+    position: relative;
+}
+.red-description {
+    display: none;
+}
+.yellow-line {
+    position: absolute;
+    width: 10px;
+    height: 850px;
+    top: -70px;
+    left: 194px;
+    background-color: #ffdd00;
+    z-index: 2;
+}
+/*.yellow-line-left {*/
+/*    position: absolute;*/
+/*    width: 80px;*/
+/*    height: 10px;*/
+/*    top: 147px;*/
+/*    left: -25px;*/
+/*    background-color: #ffdd00;*/
+/*    z-index: 2;*/
+/*}*/
+.pizza-slice2 {
+    right: -65px;
+    bottom: -50px;
+    position: absolute;
+}
+.conteiner-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 255px;
+    position: relative;
+    padding: 0 20px;
+}
+.mobile-version {
+    position: relative;
+}
+.mobile-version-grey-line {
+    width: 100%;
+    height: 260px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+}
+.mv-knife-grey {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 222px;
+}
+.block {
+    padding-top: 140px;
+    max-width: 300px;
+}
+.block-left{
+    text-align: end;
+}
+.block-bottom {
+    margin-bottom: 50px;
+    position: relative;
+}
+.end-description-bg-grey {
+    position: relative;
+}
+.bg-grey {
+    width: 100%;
+    height: 885px;
+    top: -420px;
+    background-color: #f3f3f3;
+    position: absolute;
+}
+.end-description {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+.ico {
+    margin-bottom: 20px;
+}
+.title-end {
+    font-size: 33px;
+    margin-bottom: 25px;
+}
+.bitmap-end-left{
+    left: 0;
+    bottom: -295px;
+    position: absolute;
+}
+.bitmap-end-right {}
+.bitmap-end-left-mini {
+    left: 60px;
+    bottom: 290px;
+    position: absolute;
+}
+.bitmap6 {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.bitmap7 {
+    right: 0;
+    bottom: -300px;
+    position: absolute;
+}
+.sandwich_copy2 {
+    right: -65px;
+    position: absolute;
+    bottom: -125px;
+    z-index: 3;
+}
+.sandwich_copy {
+    left: -65px;
+    top: 95px;
+    position: absolute;
+}
+.footer {
+  margin-bottom: 40px;
+}
+.nav-footer-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-list {
+    text-decoration: none;
+}
+.slider-container {
+    max-width: 320px;
+    height: 650px;
+    z-index: 2;
+    margin: 0 auto;
+}
+.slider-box-img {}
+.slider-iphone-img {}
+.slider-container .slick-dots li button:before {
+    top: -515px;
+    left: -305px;
+    height: 30px;
+    width: 160px;
+    color: inherit;
+}
+.slider-container .slick-dots li ~li button:before {
+    top: -355px;
+    left: -395px;
+    width: 220px;
+    height: 30px;
+    color: inherit;
+}
+.slider-container .slick-dots li ~li ~li button:before {
+    top: -515px;
+    left: 195px;
+    width: 185px;
+    height: 30px;
+    color: inherit;
+}
+.slider-container .slick-dots li ~li ~li ~li button:before {
+    top: -350px;
+    left: 165px;
+    width: 180px;
+    height: 30px;
+    color: inherit;
+}
+.slider-container .slick-dots li.slick-active button:before {
+    color: inherit;
+}
+.qwert {
+    color: yellowgreen;
+}
+.rewq {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.status-box:hover ~ .title {
+    color: red;
+}
+.slick-initialized .slick-slide {
+    outline: none;
+}
+.slider-container .slick-next:before {
+    display: none;
+}
+.slider-container .slick-prev:before {
+    display: none;
+}
+.slider-container .slick-prev {
+    display: none;
+}
+
+
+
+
+
