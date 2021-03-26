@@ -1,6 +1,23 @@
+@media screen and (max-width: 1200px) {
+    .left-block {
+        margin-left: 80px;
+    }
+}
+
 @media screen and (max-width: 1090px){
-    .wrapper {
+    .three-desc {
         padding: 0 20px;
+    }
+    .three-desc-box {
+        margin-right: 25px;
+    }
+    .block {
+        margin: 0 25px 0 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .block-bottom {
+        z-index: 3;
     }
 }
 @media screen and (max-width: 720px){
@@ -235,6 +252,11 @@
         right: -37px;
     }
 
+}
+@media screen and (max-width: 630px) {
+    .nav-footer-box {
+        margin: 0 25px 0 25px;
+    }
 }
 @media screen and (max-width: 480px) {
     .red-line {
