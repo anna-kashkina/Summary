@@ -26,7 +26,8 @@
     background: #fafbff;
 }
 .main {
-   background-color: #fafbff;
+    /*background-color: #fafbff;*/
+    background: linear-gradient(180deg, #E8F1FF 0%, #FFFFFF 100%);
     overflow: hidden;
 }
 .main-container {
@@ -64,7 +65,8 @@
 }
 .left-container-wrapper {
     max-width: 425px;
-    background-color: #26386c;
+    /*background-color: #26386c;*/
+    background: radial-gradient(42.1% 133.16% at 21.85% 44.04%, #040E3F 0%, #092B61 100%);
     padding: 35px;
     margin-right: 50px;
     cursor: url(../img/sammary/cursor-arrow_greey.png), default;
@@ -116,30 +118,30 @@
 .skill-box .html-title:nth-child(2n):after {
     width: 185px;
     left: 129px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .skill-box .html-title:nth-child(3n):after {
     left: 129px;
     width: 175px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .skill-box .html-title:nth-child(4n):after {
      width: 130px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .skill-box .html-title:nth-child(5n):after {
     left: 129px;
     width: 190px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .skill-box .html-title:nth-child(6n):after {
     width: 160px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .skill-box .html-title:nth-child(7n):after {
     width: 140px;
     left: 129px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .html-title:hover:nth-child(2n):after,
@@ -150,7 +152,6 @@
 .html-title:hover:nth-child(7n):after {
     width: 266px;
 }
-
 
 .skill-title {
     margin-bottom: 65px;
@@ -186,7 +187,8 @@
     left: 130px;
     height: 30px;
     width: 265px;
-    background-color: #26386c;
+    /*background-color: #26386c;*/
+    background: radial-gradient(42.1% 133.16% at 21.85% 44.04%, #040E3F 0%, #092B61 100%);
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
