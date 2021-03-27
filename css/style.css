@@ -116,25 +116,42 @@
 .skill-box .html-title:nth-child(2n):after {
     width: 185px;
     left: 129px;
+    transition: 0.5s;
 }
 .skill-box .html-title:nth-child(3n):after {
     left: 129px;
     width: 175px;
+    transition: 0.5s;
 }
 .skill-box .html-title:nth-child(4n):after {
      width: 130px;
+    transition: 0.5s;
 }
 .skill-box .html-title:nth-child(5n):after {
     left: 129px;
     width: 190px;
+    transition: 0.5s;
 }
 .skill-box .html-title:nth-child(6n):after {
     width: 160px;
+    transition: 0.5s;
 }
 .skill-box .html-title:nth-child(7n):after {
     width: 140px;
     left: 129px;
+    transition: 0.5s;
 }
+
+.html-title:hover:nth-child(2n):after,
+.html-title:hover:nth-child(3n):after,
+.html-title:hover:nth-child(4n):after,
+.html-title:hover:nth-child(5n):after,
+.html-title:hover:nth-child(6n):after,
+.html-title:hover:nth-child(7n):after {
+    width: 266px;
+}
+
+
 .skill-title {
     margin-bottom: 65px;
     font-size: 40px;
@@ -171,6 +188,7 @@
     width: 265px;
     background-color: #26386c;
     border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .html-title:after {
     position: absolute;
