@@ -126,7 +126,7 @@
     transition: 0.2s;
 }
 .skill-box .html-title:nth-child(4n):after {
-     width: 130px;
+    width: 130px;
     transition: 0.2s;
 }
 .skill-box .html-title:nth-child(5n):after {

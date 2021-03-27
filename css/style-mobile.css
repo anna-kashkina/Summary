@@ -28,18 +28,23 @@
     }
     .skill-title {
         text-align: center;
+        position: relative;
     }
     .left-container-wrapper {
         margin-right: 0;
     }
     .skill-title:after {
-        left: 175px;
+        left: -80px;
         width: 530px;
+        top: 57px;
     }
+    /*.about-desc {*/
+    /*    margin-left: 15px;*/
+    /*}*/
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1080px) {
     .main-container {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .left-container-wrapper {
         max-width: inherit;
@@ -48,8 +53,128 @@
         display: flex;
         flex-direction: column;
     }
+    .right-container {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .skill-title:after {
+        width: 490px;
+    }
+    .right-container {
+        margin-bottom: 55px;
+    }
+    .slider-img {
+        width: 305px;
+    }
+    .slider-container {
+        max-width: 316px;
+    }
+    .your-class > div {
+        width: 200px;
+        height: 150px;
+        background-color: #ccc;
+        border: 2px solid white;
+    }
+    .dots {
+        position: absolute;
+        bottom: -45px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+        cursor: url(../img/sammary/cursor-hand_2.png), pointer;
+        border: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 50%;
+    }
+    .dots li button:hover,
+    .dots li button:focus {
+        outline: none;
+        background-color: #26386c;
+    }
+    .dots li button:hover:before,
+    .dots li button:focus:before {
+        opacity: 1;
+    }
+    .dots li button:before {
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        content: url('../img/sammary/circle-dot.png');
+        text-align: center;
+        color: #8289a6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .dots li.slick-active button:before {
+        background-color: #26386c;
+        border-radius: 50%;
+    }
 }
 
+@media screen and (max-width: 500px) {
+    .skill-title:after {
+        width: 420px;
+        left: -25px;
+    }
+    .html-title:before {
+        width: 215px;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .skill-title:after {
+        width: 335px;
+        left: -10px;
+    }
+    .skill-box .html-title:nth-child(2n):after {
+        width: 160px;
+    }
+    .skill-box .html-title:nth-child(3n):after {
+        width: 140px;
+    }
+    .skill-box .html-title:nth-child(4n):after {
+        width: 130px;
+    }
+    .skill-box .html-title:nth-child(5n):after {
+        width: 175px;
+    }
+    .skill-box .html-title:nth-child(6n):after {
+        width: 150px;
+    }
+    .skill-box .html-title:nth-child(7n):after {
+        width: 100px;
+    }
 
-
+    .html-title:hover:nth-child(2n):after,
+    .html-title:hover:nth-child(3n):after,
+    .html-title:hover:nth-child(4n):after,
+    .html-title:hover:nth-child(5n):after,
+    .html-title:hover:nth-child(6n):after,
+    .html-title:hover:nth-child(7n):after {
+        width: 215px;
+    }
+}

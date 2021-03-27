@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>	&#9668;&bull;&ensp;Summary&ensp;&bull;&#9658;</title>
-    <link rel="icon" href="./img/favicon.png">
+    <link rel="icon" href="./img/sammary/favicon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style-mobile.css">
     <link rel="stylesheet" href="slick/slick.css">
@@ -118,6 +118,16 @@
                 nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",*/
                 prevArrow: "<button type='button' class='arrow arrow-left'></button>",
                 nextArrow: "<button type='button' class='arrow arrow-right'></button>",
+                responsive: [
+                    {
+                        breakpoint: 601,
+                        settings: {
+                            arrows: false,
+                            dots: true,
+                            dotsClass: "dots",
+                        }
+                    },
+                ]
             });
         });
     </script>
