@@ -52,6 +52,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        padding: 35px 0;
     }
     .right-container {
         margin: 0 auto;
@@ -59,7 +60,9 @@
 }
 @media screen and (max-width: 600px) {
     .skill-title:after {
-        width: 490px;
+        width: 100%;
+        left: 0;
+        top: 35px;
     }
     .right-container {
         margin-bottom: 55px;
@@ -133,23 +136,41 @@
         background-color: #26386c;
         border-radius: 50%;
     }
+    .photo {
+        height: 400px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    .icon {
+        width: 35px;
+    }
+    .icon-box-txt {
+        font-size: 15px;
+    }
+    .subtitle:after {
+        left: 35px;
+    }
+    .skill-title {
+        font-size: 25px;
+        margin-bottom: 45px;
+    }
+    .skill-box-line {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
-    .skill-title:after {
-        width: 420px;
-        left: -25px;
-    }
     .html-title:before {
         width: 215px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .skill-title:after {
-        width: 335px;
-        left: -10px;
-    }
+
     .skill-box .html-title:nth-child(2n):after {
         width: 160px;
     }
@@ -177,4 +198,5 @@
     .html-title:hover:nth-child(7n):after {
         width: 215px;
     }
+
 }
