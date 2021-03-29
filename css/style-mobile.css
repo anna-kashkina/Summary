@@ -166,6 +166,8 @@
 @media screen and (max-width: 500px) {
     .html-title:before {
         width: 215px;
+        left: 72px;
+        height: 20px;
     }
 }
 
@@ -173,21 +175,33 @@
 
     .skill-box .html-title:nth-child(2n):after {
         width: 160px;
+        left: 72px;
+        height: 20px;
     }
     .skill-box .html-title:nth-child(3n):after {
         width: 140px;
+        left: 72px;
+        height: 20px;
     }
     .skill-box .html-title:nth-child(4n):after {
         width: 130px;
+        left: 72px;
+        height: 20px;
     }
     .skill-box .html-title:nth-child(5n):after {
         width: 175px;
+        left: 72px;
+        height: 20px;
     }
     .skill-box .html-title:nth-child(6n):after {
         width: 150px;
+        left: 72px;
+        height: 20px;
     }
     .skill-box .html-title:nth-child(7n):after {
         width: 100px;
+        left: 72px;
+        height: 20px;
     }
 
     .html-title:hover:nth-child(2n):after,
@@ -200,3 +214,11 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .vvvvvvv {
+        transform: rotate(-90deg);
+        /*position: relative;*/
+    }
+}
+
