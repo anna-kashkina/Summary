@@ -109,7 +109,6 @@
 }
 .skill-box {
     font-size: 30px;
-    margin: 0 50px;
 }
 .about-box {
     max-width: 355px;
@@ -223,6 +222,9 @@
     border: 5px solid #26386c80;
     width: 410px;
     cursor: pointer;
+}
+.slider-img:hover {
+    cursor: url(../img/sammary/cursor-hand_3.png), pointer;
 }
 .slider-momento-food {
    background: url("../img/sammary/momento.jpg") 0 0 no-repeat;

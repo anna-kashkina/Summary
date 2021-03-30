@@ -161,6 +161,17 @@
     .skill-box-line {
         font-size: 20px;
     }
+    .skill-title-about,
+    .portfolio-title {
+        font-size: 25px;
+    }
+    .about-desc {
+        font-size: 15px;
+    }
+    .about-box,
+    .skill-box {
+        padding: 0 25px;
+    }
 }
 
 @media screen and (max-width: 500px) {

@@ -36,6 +36,26 @@
     background-size: contain;
     top: 20px;
 }
+
+.logo:hover {
+    cursor: url(../img/sammary/cursor-hand_2.png), pointer;
+}
+.home {
+    position: absolute;
+    top: 53px;
+    left: 58px;
+    z-index: 6;
+    display: none;
+    font-size: 25px;
+    background: radial-gradient(42.1% 133.16% at 21.85% 44.04%, #040E3F 0%, #092B61 100%);
+    padding: 9px 16px;
+    border-radius: 0 16px 16px;
+    color: white;
+    border: 3px solid #8289a6;
+}
+.link-summary:hover ~ .home {
+    display: block;
+}
 .red-line {
     position: absolute;
     top: -10px;

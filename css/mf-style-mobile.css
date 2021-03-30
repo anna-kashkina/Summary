@@ -2,6 +2,9 @@
     .left-block {
         margin-left: 80px;
     }
+    .logo {
+        padding-left: 80px;
+    }
 }
 
 @media screen and (max-width: 1090px){
@@ -11,16 +14,62 @@
     .three-desc-box {
         margin-right: 25px;
     }
+    .conteiner-description {
+        max-width: 850px;
+    }
     .block {
-        margin: 0 25px 0 20px;
+        max-width: 240px;
+    }
+    .yellow-line {
+        left: 179px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .block-left {
+        display: none;
+    }
+    .block-right {
+        display: none;
+    }
+    .yellow-line {
+        height: 300px;
+        top: 350px;
+        left: 228px;
+    }
+    .slider-container .slick-next:before {
+        display: block;
+        font-size: 60px;
+        color: #9e0000;
+    }
+    .slider-container .slick-prev:before {
+        display: block;
+        font-size: 60px;
+        color: #9e0000;
+    }
+    .slider-container .slick-prev {
+        display: block;
+        top: 42%;
+        left: -75px;
+    }
+    .slider-container .slick-next {
+        display: block;
+        top: 42%;
+        right: -37px;
+    }
+    .conteiner-description {
+        max-width: 470px;
     }
 }
 @media screen and (max-width: 800px) {
     .block-bottom {
         z-index: 3;
     }
+
 }
 @media screen and (max-width: 720px){
+    .left-block {
+        margin-left: 0;
+    }
     .wrapper {
         padding: 0;
     }
@@ -56,7 +105,6 @@
         top: -45px;
     }
     .logo {
-        left: 65px;
         width: 95px;
     }
     .red-line {
@@ -141,17 +189,10 @@
     .three-desc-box-description {
         text-align: center;
     }
-    .block-left {
-        display: none;
-    }
-    .block-right {
-        display: none;
-    }
     .yellow-line {
-        height: 300px;
-        top: 350px;
         left: -5px;
     }
+
     .yellow-line-left {
         display: none;
     }
@@ -231,26 +272,7 @@
         z-index: 3;
         position: relative;
     }
-    .slider-container .slick-next:before {
-        display: block;
-        font-size: 60px;
-        color: #9e0000;
-}
-    .slider-container .slick-prev:before {
-        display: block;
-        font-size: 60px;
-        color: #9e0000;
-    }
-    .slider-container .slick-prev {
-        display: block;
-        top: 42%;
-        left: -75px;
-    }
-    .slider-container .slick-next {
-        display: block;
-        top: 42%;
-        right: -37px;
-    }
+
 
 }
 @media screen and (max-width: 630px) {
@@ -263,7 +285,7 @@
         left: -540px;
     }
     .logo {
-        left: 33px;
+        /*left: 33px;*/
         width: 95px;
     }
     .bitmap2x {
