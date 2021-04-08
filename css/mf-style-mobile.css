@@ -6,13 +6,9 @@
         padding-left: 80px;
     }
 }
-
 @media screen and (max-width: 1090px){
     .three-desc {
         padding: 0 20px;
-    }
-    .three-desc-box {
-        margin-right: 25px;
     }
     .conteiner-description {
         max-width: 850px;
@@ -59,12 +55,51 @@
     .conteiner-description {
         max-width: 470px;
     }
+    .arrow {
+        border-radius: 4px;
+        background-color: inherit;
+        outline: none;
+        position: absolute;
+        top: 265px;
+        cursor: pointer;
+        border: solid #c71c1c;
+        border-width: 0 4px 4px 0;
+        padding: 10px;
+    }
+    .arrow-left {
+        left: -30px;
+        -webkit-transform: rotate(135deg);
+    }
+    .arrow-right {
+        right: -20px;
+        -webkit-transform: rotate(-45deg);
+    }
 }
 @media screen and (max-width: 800px) {
     .block-bottom {
         z-index: 3;
     }
 
+}
+@media screen and (max-width: 830px) {
+    .nav-footer-box {
+        flex-wrap: wrap;
+        max-width: 595px;
+        margin: 0 auto;
+    }
+    .nav-list {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .mobile-right-txt {
+        text-align: right;
+    }
+}
+@media screen and (max-width: 770px) {
+    .momento-yellow-line {
+        top: 169px;
+        left: -5px;
+    }
 }
 @media screen and (max-width: 720px){
     .left-block {
@@ -152,7 +187,7 @@
         margin-bottom: 35px;
     }
     .momento-deliver-knif {
-        top: 561px;
+        top: 575px;
         height: 42vh;
         width: 112%;
     }
@@ -192,7 +227,6 @@
     .yellow-line {
         left: -5px;
     }
-
     .yellow-line-left {
         display: none;
     }
@@ -251,19 +285,6 @@
         bottom: -290px;
         width: 475px;
     }
-    .nav-footer-box {
-        flex-wrap: wrap;
-        max-width: 595px;
-        margin: 0 auto;
-    }
-    .nav-list {
-        width: 50%;
-        margin-bottom: 35px;
-        color: gray;
-    }
-    .mobile-right-txt {
-        text-align: right;
-    }
     .main {
         margin-bottom: 205px;
     }
@@ -272,12 +293,23 @@
         z-index: 3;
         position: relative;
     }
-
-
+    .arrow {
+        top: 278px;
+    }
+    .nav-list {
+        font-size: 15px;
+    }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 540px) {
+    .nav-list {
+        width: 100%;
+        text-align: center;
+    }
     .nav-footer-box {
-        margin: 0 25px 0 25px;
+        max-width: 230px;
+    }
+    .nav-footer-box {
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 480px) {

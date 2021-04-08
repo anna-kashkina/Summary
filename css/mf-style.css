@@ -21,7 +21,6 @@
 }
 .wrapper {
     max-width: 1000px;
-    width: 100%;
     margin: 0 auto;
 }
 .header {
@@ -140,6 +139,10 @@
     max-width: 390px;
 }
 .left-block-button-box {}
+.app-link {
+    position: relative;
+    z-index: 4;
+}
 .momento {
     position: relative;
     z-index: 5;
@@ -192,7 +195,8 @@
     padding: 0 20px;
 }
 .three-desc-box {
-    max-width: 310px;
+    max-width: 285px;
+    padding-right: 10px;
 }
 .group_7 {}
 .group_8 {}
@@ -339,12 +343,14 @@
 }
 .nav-footer-box {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     position: relative;
+    z-index: 1;
+    padding: 0 20px;
 }
 .nav-list {
     text-decoration: none;
+    color: gray;
 }
 .slider-container {
     max-width: 320px;
@@ -408,8 +414,5 @@
 .slider-container .slick-prev {
     display: none;
 }
-
-
-
 
 

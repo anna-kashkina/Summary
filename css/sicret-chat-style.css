@@ -63,6 +63,7 @@
 }
 .secret-container {
     display: flex;
+    position: relative;
 }
 .secret-left-box {
     color: white;
@@ -198,9 +199,9 @@
     content: "";
     position: absolute;
     top: 30px;
-    right: 160px;
+    right: 420px;
     background: url("../img/sicret-chat/left-shield.png") 0 0 no-repeat;
-    width: 800px;
+    width: 509px;
     height: 500px;
 }
 .secret-mess-box {
@@ -251,10 +252,13 @@
 .footer-nav-box {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 .nav-descr {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 .lower-left-shield {
     position: absolute;
@@ -279,4 +283,7 @@
 .slider-container .slick-dots li button:before {
  color: yellow!important;
 }
+
+
+
 

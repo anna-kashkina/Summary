@@ -33,3 +33,13 @@
         right: 0;
     }
 }
+@media screen and (max-width: 965px) {
+    .right-box-confeti-img {
+        right: 160px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .desc-container-box {
+        padding: 25px;
+    }
+}
