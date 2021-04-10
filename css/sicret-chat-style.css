@@ -158,22 +158,35 @@
 .bg-functionality-phone {
     position: absolute;
     top: -325px;
-    left: -180px;
+    left: -105px;
     height: 530px;
+}
+.img-box-slider {
+    position: relative;
+    width: 265px;
+    z-index: 2;
 }
 .mobile-central {
     position: absolute;
     top: -250px;
     left: -25px;
-    z-index: 2;
+    z-index: 1;
 }
-.sec-ret {
-    z-index: 3;
-    position: relative;
-    bottom: 170px;
-}
+/*.img-box {*/
+/*    z-index: 3;*/
+/*    position: absolute;*/
+/*    bottom: 170px;*/
+/*    left: -142px;*/
+/*}*/
 .central-img {
-    display: none;
+   /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 55;
+    width: 250px;
+    height: 250px;*/
+   /* width: 200px;
+    */
 }
 .footer {
     background-color: #222831;

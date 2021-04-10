@@ -95,13 +95,23 @@
                 <div class="desc-mobile-central-box">
                     <img class="mobile-central" src="./img/sicret-chat/iphone2.png" alt="">
                     <img class="bg-functionality-phone" src="./img/sicret-chat/bg-functionality-phone.png" alt="">
-                    <img class="sec-ret" src="./img/sicret-chat/sec-ret.jpg" alt="">
-                        <div class="img-box">
+                    <div class="img-box-slider">
+                       <div>
+                           <img class="central-img" src="./img/sicret-chat/sec-ret.jpg" alt="">
+                       </div>
+                        <div>
                             <img class="central-img registration" src="./img/sicret-chat/registration.jpg" alt="">
+                        </div>
+                        <div>
                             <img class="central-img calls" src="./img/sicret-chat/calls.jpg" alt="">
+                        </div>
+                        <div>
                             <img class="central-img card-pay" src="./img/sicret-chat/cardPay.jpg" alt="">
+                        </div>
+                        <div>
                             <img class="central-img delete-chat" src="./img/sicret-chat/delete-chat.jpg" alt="">
                         </div>
+                    </div>
                 </div>
                 <div class="desc-mobile-box">
                 <div class="right-box">
@@ -170,6 +180,18 @@
                 // nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",
                 prevArrow: "<button type='button' class='arrow arrow-left'></button>",
                 nextArrow: "<button type='button' class='arrow arrow-right'></button>",
+            });
+            $('.img-box-slider').slick({
+                // cssEase: 'linear'*
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                autoplay: false,
+                speed: 600,
+                arrows: false,
+                // prevArrow: "<img src='https://svgshare.com/i/6Ei.svg' class='prev' alt='1'>",
+                // nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",
             });
         });
     </script>
