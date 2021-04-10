@@ -14,17 +14,15 @@
     padding: 0;
     font-family: montserratlight;
 }
+.main {
+    overflow: hidden;
+}
 .header {
     background: linear-gradient(104.91deg, #222831 12.31%, #1B1F25 62.23%);
     min-height: 130px;
 }
 .wrapper {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-.wrapper2 {
-    max-width: 1000px;
+    max-width: 1050px;
     width: 100%;
     margin: 0 auto;
 }
@@ -63,7 +61,7 @@
 }
 .secret-container {
     display: flex;
-    position: relative;
+    justify-content: space-between;
 }
 .secret-left-box {
     color: white;
@@ -90,18 +88,11 @@
 .app-google-link {
     max-width: 115px;
 }
-.header-secret-right-box {
-    position: relative;
-}
+
 .right-box-privasy-img {
     left: 425px;
     /*overflow: hidden;*/
     margin: 0 auto;
-}
-.right-box-confeti-img {
-    position: absolute;
-    top: -60px;
-    right: -165px;
 }
 .right-box-descr {
     padding: 50px 25px 0;
@@ -271,11 +262,20 @@
     right: 65px;
 }
 .slider-container {
+    position: relative;
     max-width: 405px;
-    top: 0;
+    /*top: 0;
     right: -85px;
-    z-index: 3;
-    /*background: url("../img/confeti.png") 0 0 no-repeat;*/
+    z-index: 3;*/
+}
+.slider-container:before {
+    position: absolute;
+    top: -60px;
+    left: -96px;
+    width: 582px;
+    height: 488px;
+    content: " ";
+    background: url(../img/sicret-chat/confeti.png) 0 0 no-repeat;
 }
 .slider-box {
     outline: none;
