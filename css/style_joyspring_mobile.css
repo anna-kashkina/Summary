@@ -1,0 +1,151 @@
+@media (max-width: 720px) {
+
+    .menu-list-description {
+        /*display: none;*/
+    }
+    .wrapper {
+        max-width: 600px;
+    }
+    .header-menu-box {
+        flex-direction: column;
+        display: none;
+    }
+    .menu-list:hover .header-menu-box {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: -24px;
+        padding-top: 10px;
+    }
+    .menu-list-description {
+        padding: 10px;
+        background-color: blue;
+        border-radius: 5px;
+    }
+    .forest-bg:after {
+        background-size: contain;
+        bottom: 110px;
+    }
+    .knife-down {
+        bottom: 125px;
+    }
+    .menu-list {
+        flex-direction: column;
+        max-width: 100px;
+        position: relative;
+    }
+    .wellness-deskription-container {
+        max-width: 385px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .easy-to-use-container:after {
+        background-size: contain;
+        bottom: -185px;
+    }
+    .easy-to-use-container {
+        margin-bottom: 0;
+    }
+     .left-box {
+        max-width: 390px;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .orange-txt {
+        margin-bottom: 40px;
+    }
+    .left-box-img {
+        max-width: 390px;
+        display: inline;
+    }
+    .forest-bg {
+        margin-bottom: 330px;
+    }
+    .about-img-container {
+        flex-wrap: wrap;
+    }
+    .about-img-box {
+        margin-bottom: 50px;
+    }
+    .desk-txt-white {
+        display: none;
+    }
+    .easy-to-use-container:before {
+        top: -35px;
+        background-size: contain;
+    }
+    .about-joyspring {
+        z-index: 3;
+    }
+    .our-prices-white-box {
+        flex-wrap: wrap;
+    }
+    .our-happy-users:after {
+        bottom: -3285px;
+        background-size: contain;
+    }
+    .about-dr-sheele:before {
+        top: 0;
+        background-size: contain;
+    }
+    .white-box {
+        margin-bottom: 50px;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .white-box-3 {
+        max-width: 100%;
+        align-items: baseline;
+        padding: 35px 45px;
+    }
+    .our-desk {
+        /*margin-bottom: 0;*/
+        z-index: 3;
+        position: relative;
+    }
+    .our-prices-container {
+        padding-bottom: 60px;
+    }
+    .our-happy-users {
+        background-color: white;
+    }
+    .slider-container {
+        max-width: 400px;
+    }
+    .about-dr-sheele-container {
+        flex-wrap: wrap-reverse;
+        padding-top: 235px;
+        height: 1250px;
+    }
+    .about-dr-sheele {
+        height: 1390px;
+        margin-bottom: 40px;
+    }
+    .up-arrow {
+        right: 50px;
+    }
+    .footer:before {
+        top: 0;
+        background-size: contain;
+    }
+    .download {
+        z-index: 1;
+        position: relative;
+    }
+    .photo-dr-sheele {
+        padding: 0;
+    }
+    .about-dr-sheele-right {
+        text-align: center;
+        padding: 0;
+        max-width: 590px;
+        margin: 0 auto;
+    }
+    .about-dr-sheele:after {
+        background-size: contain;
+        bottom: -200px;
+    }
+    .menu-list-footer {
+    }
+}

@@ -1,0 +1,482 @@
+@font-face {
+    font-family: 'sf-ui';
+    src: url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.eot');
+    src: url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.woff2') format('woff2'),
+    url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.woff') format('woff'),
+    url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.ttf') format('truetype'),
+    url('../font/joy_spring/SFUIText-Medium/sfuitext-medium-webfont.svg#sf_ui__textmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sf-pro';
+    src: url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.eot');
+    src: url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.woff2') format('woff2'),
+    url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.woff') format('woff'),
+    url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.ttf') format('truetype'),
+    url('../font/joy_spring/SFProDisplay-Light/sfprodisplay-light-webfont.svg#sf_pro_displaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper-all {
+    overflow: hidden;
+}
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.forest-bg {
+    background: url(../img/joy_spring/forest3_1.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 890px;
+    background-size: cover;
+    margin-top: -218px;
+    margin-bottom: 100px;
+}
+.header-logo {}
+.menu {
+    display: flex;
+    /*align-items: flex-end;*/
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-list {
+    justify-content: space-between;
+    max-width: 720px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.header-menu-box {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+.menu-list-description {
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+    font-family: 'sf-pro';
+}
+.menu-list-description:hover {
+    color: blue;
+}
+
+.footer-menu-list-description {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 50px;
+    font-family: 'sf-pro';
+}
+.footer-menu-list-description:hover {
+    color: blue;
+}
+.download-button {
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: white;
+    font-family: 'sf-pro';
+    font-size: 15px;
+}
+.main {}
+.wellness-deskription-container {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    max-width: 1080px;
+}
+/*.forest-bg:after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    left: 0;*/
+/*    height: 335px;*/
+/*    width: 100%;*/
+/*    bottom: 668px;*/
+/*    background: url("img/knife_down.png") 0 0 no-repeat;*/
+/*    background-size: cover;*/
+/*    !*margin-bottom: -230px;*!*/
+/*}*/
+.knife-down {
+    width: 100%;
+    bottom: 115px;
+    position: absolute;
+}
+.left-box {
+    max-width: 345px;
+    padding-top: 150px;
+}
+.wellness-title {
+    font-family: 'sf-ui';
+}
+.paul-title {
+    margin-bottom: 10px;
+    font-family: 'sf-ui';
+}
+.orange-txt {
+    color: orange;
+    font-size: 13px;
+    font-family: 'sf-pro';
+}
+.desk-txt {
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    font-family: 'sf-pro';
+}
+.left-box-img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 225px;
+}
+.left-img {
+    width: 100px;
+}
+.right-box {
+    position: relative;
+    padding-top: 50px;
+}
+.right-box-mob-1 {
+    position: relative;
+    z-index: 2;
+}
+.right-box-mob-2 {
+    left: 125px;
+    top: 75px;
+    position: absolute;
+    z-index: 1;
+}
+.about-joyspring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-bottom: 200px;*/
+    position: relative;
+    text-align: center;
+}
+.about-js {
+    margin-bottom: 50px;
+}
+.about-heading {
+    font-family: 'sf-ui';
+}
+.about-img-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.about-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 267px;
+}
+.about-img {
+    width: 80px;
+    margin-bottom: 25px;
+}
+.js-box-heading {
+    margin-bottom: 15px;
+    font-family: 'sf-ui';
+}
+.js-box-desc {
+    font-family: 'sf-pro';
+}
+.easy-to-use-container {
+    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 65px;
+}
+.easy-to-use-container:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -66px;
+    height: 355px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_down2.png) 0 0 no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.easy-to-use-container:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 355px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_up.png) 0 0 no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.easy-to-use-box {
+    display: flex;
+    justify-content: center;
+}
+
+.easy-to-use-left {
+    padding-top: 255px;
+    max-width: 400px;
+    margin-right: 50px;
+}
+.easy-to-use-iphone {
+    height: 620px;
+    margin-bottom: 30px;
+}
+.easy-to-use-right {
+    padding-top: 280px;
+    opacity: 0.5;
+}
+.easy-to-use-right:hover {
+    opacity: 1;
+}
+.desk-txt-white {
+    color: white;
+    max-width: 210px;
+    font-family: 'sf-pro';
+}
+.desk-txt-w {
+    color: white;
+    max-width: 210px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'sf-pro';
+}
+.cursor {
+    cursor: pointer;
+}
+.easy-box {
+    margin-bottom: 35px;
+    display: flex;
+}
+.easy-box-img {
+    margin-right: 25px;
+}
+.our-prices-container {
+    background-color: #f7faff;
+    padding-bottom: 100px;
+}
+.our-prices-box {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+.our-prices-heading {
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'sf-ui';
+}
+.our-prices-white-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.white-box {
+    padding: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 215px;
+    box-shadow: 8px 18px 32px rgba(0,0,0,0.2);
+    border-radius: 40px;
+}
+.white-box-button {
+    padding: 10px 64px;
+    border-color: #1567f9;
+    border-radius: 5px;
+    background-color: white;
+    color: #1567f9;
+    outline: none;
+}
+.white-box-button:hover {
+    background-color: #1567f9;
+    color: white;
+    font-family: 'sf-pro';
+}
+.txt-opacity {
+    margin-bottom: 50px;
+    opacity: 0.5;
+    font-family: 'sf-pro';
+}
+.white-box-desk {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'sf-pro';
+}
+.our-happy-users {
+    text-align: center;
+    background-color: #f7faff;
+}
+.our-happy-users:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2400px;
+    height: 355px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_down.png) 0 0 no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.our-desk {
+    margin-bottom: 120px;
+    font-family: 'sf-ui';
+}
+.our-slider {}
+.slider-container {
+    max-width: 700px;
+    margin: 0 auto;
+    z-index: 3;
+}
+.arrow {
+    border-radius: 4px;
+    background-color: inherit;
+    outline: none;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    cursor: pointer;
+    border: solid #81bfff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+.arrow-left {
+    left: -55px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.arrow-right {
+    right: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.slider-img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+.slider-desc {
+    font-family: 'sf-pro';
+}
+.slider-desk {}
+.about-dr-sheele {
+    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 825px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+}
+.about-dr-sheele:before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 0;
+    height: 365px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_up.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.about-dr-sheele:after {
+    position: absolute;
+    content: "";
+    bottom: -110px;
+    height: 355px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_down.png) 0 0 no-repeat;
+    background-size: cover;
+    /*z-index: 2;*/
+}
+.about-dr-sheele-container {
+    display: flex;
+}
+.about-dr-sheele-left {}
+.photo-dr-sheele {
+    width: 500px;
+    position: relative;
+    padding: 150px 0;
+}
+.about-dr-sheele-right {
+    padding-top: 315px;
+    max-width: 680px;
+    padding-left: 70px;
+}
+.color-white {
+    color: white;
+    font-family: 'sf-ui';
+}
+.about-dr-font {
+    font-family: 'sf-pro';
+}
+.download {
+    text-align: center;
+    max-width: 500px;
+    z-index: 3;
+    position: relative;
+    font-family: 'sf-ui';
+}
+.app-img {
+    width: 100px;
+}
+.footer {
+    background: url(../img/joy_spring/downloadAppImg.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 385px;
+    background-size: cover;
+    position: relative;
+}
+.footer:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 365px;
+    width: 100%;
+    background: url(../img/joy_spring/knife_up.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.footer-nav {
+    position: relative;
+    padding-top: 285px;
+}
+.txt-end {
+    text-align: end;
+    color: white;
+    opacity: 0.5;
+    font-family: 'sf-pro';
+}
+.up-arrow {
+    position: fixed;
+    top: 780px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 5;
+}
+.menu-list-footer {
+    max-width: 530px;
+}
