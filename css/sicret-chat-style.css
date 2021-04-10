@@ -158,13 +158,18 @@
 .bg-functionality-phone {
     position: absolute;
     top: -325px;
-    left: -105px;
+    left: -190px;
     height: 530px;
 }
 .img-box-slider {
-    position: relative;
+    position: absolute;
+    top: -173px;
+    left: 1px;
     width: 265px;
     z-index: 2;
+}
+.img-box {
+    margin-right: 50px;
 }
 .mobile-central {
     position: absolute;
