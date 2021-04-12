@@ -23,7 +23,7 @@
 }
 .wrapper {
     max-width: 1050px;
-    width: 100%;
+    /*width: 100%;*/
     margin: 0 auto;
 }
 .header-menu {
@@ -54,10 +54,8 @@
     color: black;
 }
 .secret {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
     background: linear-gradient(104.91deg, #222831 12.31%, #1B1F25 62.23%);
-    padding: 50px 0 100px 0;
+    padding: 50px 25px 100px;
 }
 .secret-container {
     display: flex;
@@ -85,9 +83,7 @@
 .app-google-img {
     width: 160px;
 }
-.app-google-link {
-    max-width: 115px;
-}
+.app-google-link {}
 
 .right-box-privasy-img {
     left: 425px;
@@ -98,8 +94,6 @@
     padding: 50px 25px 0;
     color: white;
     text-align: center;
-    /*position: relative;*/
-    /*top: 0;*/
 }
 .desc-container {
     background-color: #222831;
@@ -137,6 +131,12 @@
     flex-direction: column;
     max-width: 350px;
     color: white;
+}
+.dmb-left {
+    padding-right: 50px;
+}
+.dmb-right {
+    padding-left: 50px;
 }
   .left-box {
     text-align: right;
@@ -177,22 +177,6 @@
     left: -25px;
     z-index: 1;
 }
-/*.img-box {*/
-/*    z-index: 3;*/
-/*    position: absolute;*/
-/*    bottom: 170px;*/
-/*    left: -142px;*/
-/*}*/
-.central-img {
-   /* position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 250px;
-    height: 250px;*/
-   /* width: 200px;
-    */
-}
 .footer {
     background-color: #222831;
     min-height: 80px;
@@ -200,7 +184,7 @@
 }
 .secret-mess-container {
     background-color: #222831;
-    /*min-height: 700px;*/
+    min-height: 700px;
     position: relative;
     padding-top: 75px;
 }
@@ -208,48 +192,50 @@
     content: "";
     position: absolute;
     top: 30px;
-    right: 420px;
-    background: url("../img/sicret-chat/left-shield.png") 0 0 no-repeat;
+    right: 402px;
+    background: url(../img/sicret-chat/left-shield.png) 0 0 no-repeat;
     width: 509px;
     height: 500px;
 }
 .secret-mess-box {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    max-width: 600px;
-    min-height: 500px;
     margin: 0 auto;
     text-align: center;
     color: white;
-    padding-top: 135px;
-    background: url("../img/sicret-chat/confeti.png") 0 0 no-repeat;
-    background-position: inherit;
+    padding-top: 60px;
     position: relative;
+    max-width: 600px;
+}
+.shield-messenger {
+    background: url(../img/sicret-chat/confeti.png) 0 0 no-repeat;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 600px;
+    height: 500px;
 }
 .secret-mess-box:after {
     content: "";
     position: absolute;
     top: 30px;
-    left: 570px;
-    background: url("../img/sicret-chat/right-shield.png") 0 0 no-repeat;
+    left: 537px;
+    background: url(../img/sicret-chat/right-shield.png) 0 0 no-repeat;
     width: 800px;
     height: 500px;
 }
 .app-google-secret-box {
     display: flex;
-    /* flex-direction: initial; */
-    /* margin: 0 153px; */
     margin: 0 auto;
-    max-width: 275px;
+    max-width: 320px;
 }
 .logo-footer {
-    top: 35px;
-    position: absolute;
-    left: 225px;
+    /*top: 35px;*/
+    /*!*position: absolute;*!*/
+    /*left: 225px;*/
 }
 .title-mess {
     margin-bottom: 30px;
     font-size: 45px;
+    margin-top: -25px;
 }
 .descr-mess {
     margin-bottom: 30px;
@@ -282,9 +268,6 @@
 .slider-container {
     position: relative;
     max-width: 405px;
-    /*top: 0;
-    right: -85px;
-    z-index: 3;*/
 }
 .slider-container:before {
     position: absolute;
