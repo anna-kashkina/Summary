@@ -29,7 +29,7 @@
 }
 .wrapper {
     max-width: 1200px;
-    width: 100%;
+    /*width: 100%;*/
     margin: 0 auto;
 }
 .header {
@@ -121,7 +121,7 @@
 /*}*/
 .knife-down {
     width: 100%;
-    bottom: 115px;
+    bottom: 150px;
     position: absolute;
 }
 .left-box {
@@ -144,6 +144,9 @@
     margin-bottom: 30px;
     margin-bottom: 30px;
     font-family: 'sf-pro';
+}
+.app-link-download {
+    text-decoration: none;
 }
 .left-box-img {
     display: flex;
@@ -204,12 +207,17 @@
     font-family: 'sf-pro';
 }
 .easy-to-use-container {
-    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
-    width: 100%;
-    height: 1100px;
-    background-size: cover;
     position: relative;
     margin-bottom: 65px;
+}
+.forest-mob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 .easy-to-use-container:after {
     position: absolute;
@@ -234,10 +242,12 @@
     z-index: 2;
 }
 .easy-to-use-box {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
-
 .easy-to-use-left {
     padding-top: 255px;
     max-width: 400px;
@@ -249,10 +259,6 @@
 }
 .easy-to-use-right {
     padding-top: 280px;
-    opacity: 0.5;
-}
-.easy-to-use-right:hover {
-    opacity: 1;
 }
 .desk-txt-white {
     color: white;
@@ -272,13 +278,17 @@
 .easy-box {
     margin-bottom: 35px;
     display: flex;
+    opacity: 0.5;
+}
+.easy-box:hover {
+    opacity: 1;
 }
 .easy-box-img {
     margin-right: 25px;
 }
 .our-prices-container {
     background-color: #f7faff;
-    padding-bottom: 100px;
+    padding: 0 25px 100px;
 }
 .our-prices-box {
     /*display: flex;*/
@@ -304,19 +314,24 @@
     max-width: 215px;
     box-shadow: 8px 18px 32px rgba(0,0,0,0.2);
     border-radius: 40px;
+    margin-right: 20px;
+}
+.white-box:nth-child(3) {
+    margin-right: 0;
 }
 .white-box-button {
+    cursor: pointer;
     padding: 10px 64px;
     border-color: #1567f9;
     border-radius: 5px;
     background-color: white;
     color: #1567f9;
     outline: none;
+    font-family: 'sf-pro';
 }
 .white-box-button:hover {
     background-color: #1567f9;
     color: white;
-    font-family: 'sf-pro';
 }
 .txt-opacity {
     margin-bottom: 50px;
@@ -329,6 +344,7 @@
     font-family: 'sf-pro';
 }
 .our-happy-users {
+    position: relative;
     text-align: center;
     background-color: #f7faff;
 }
@@ -336,7 +352,7 @@
     position: absolute;
     content: "";
     left: 0;
-    bottom: -2400px;
+    bottom: -7px;
     height: 355px;
     width: 100%;
     background: url(../img/joy_spring/knife_down.png) 0 0 no-repeat;
@@ -372,28 +388,37 @@
     -webkit-transform: rotate(135deg);
 }
 .arrow-right {
-    right: 0;
+    right: -39px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+.slider-figure {
+    outline: none;
+}
 .slider-img {
     width: 80px;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 .slider-desc {
     font-family: 'sf-pro';
 }
 .slider-desk {}
 .about-dr-sheele {
-    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
-    width: 100%;
-    height: 825px;
-    background-size: cover;
     position: relative;
     margin-bottom: 100px;
 }
+.forest-dr-sheel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/joy_spring/heder_forest_2x.jpg) 0 0 no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
 .about-dr-sheele:before {
     position: absolute;
+    z-index: 1;
     content: "";
     top: 5px;
     left: 0;
@@ -404,27 +429,32 @@
 }
 .about-dr-sheele:after {
     position: absolute;
+    z-index: 1;
     content: "";
-    bottom: -110px;
+    bottom: -36px;
     height: 355px;
     width: 100%;
     background: url(../img/joy_spring/knife_down.png) 0 0 no-repeat;
-    background-size: cover;
-    /*z-index: 2;*/
+    background-size: contain;
 }
 .about-dr-sheele-container {
     display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
 }
-.about-dr-sheele-left {}
+.about-dr-sheele-left {
+    margin-right: 50px;
+}
 .photo-dr-sheele {
     width: 500px;
     position: relative;
-    padding: 150px 0;
+    padding: 245px 0 0;
 }
 .about-dr-sheele-right {
+    position: relative;
+    z-index: 2;
     padding-top: 315px;
     max-width: 680px;
-    padding-left: 70px;
 }
 .color-white {
     color: white;

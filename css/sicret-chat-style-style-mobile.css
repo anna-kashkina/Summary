@@ -53,7 +53,7 @@
     }
     .arrow-left {
         left: -100px;
-        top: 223px;
+        top: 215px;
         transform: rotate(135deg);
         -webkit-transform: rotate(135deg);
     }
@@ -77,6 +77,9 @@
     }
     .nav-descr:nth-child(even) {
         text-align: right;
+    }
+    .secret-mess-container {
+        min-height: 605px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -127,6 +130,17 @@
     .secret-mess-container {
         padding: 0 25px;
     }
+    .shield-messenger {
+        top: 10px;
+        left: -115px;
+    }
+    .secret-mess-box {
+        padding-top: 50px;
+    }
+    .footer-nav-box {
+        padding-bottom: 75px;
+    }
+
 }
 @media screen and (max-width: 530px) {
     .mobile-central {

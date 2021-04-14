@@ -47,11 +47,17 @@
     color: white;
     padding-top: 10px;
 }
+.menu-list:hover {
+    color: #e3b318;
+}
 .menu-list-yellow-btn {
     padding: 10px 30px;
     background-color: #e3b318;
     border-radius: 40px;
     color: black;
+}
+.menu-list-yellow-btn:hover {
+    color: #000;
 }
 .secret {
     background: linear-gradient(104.91deg, #222831 12.31%, #1B1F25 62.23%);
@@ -226,6 +232,8 @@
     display: flex;
     margin: 0 auto;
     max-width: 320px;
+    z-index: 5;
+    position: relative;
 }
 .logo-footer {
     /*top: 35px;*/
@@ -254,6 +262,9 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+.nav-descr:hover {
+    color: #e3b318;
 }
 .lower-left-shield {
     position: absolute;
