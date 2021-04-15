@@ -23,7 +23,6 @@
 }
 .wrapper {
     max-width: 1050px;
-    /*width: 100%;*/
     margin: 0 auto;
 }
 .header-menu {
@@ -234,11 +233,6 @@
     max-width: 320px;
     z-index: 5;
     position: relative;
-}
-.logo-footer {
-    /*top: 35px;*/
-    /*!*position: absolute;*!*/
-    /*left: 225px;*/
 }
 .title-mess {
     margin-bottom: 30px;

@@ -5,6 +5,10 @@
     .logo {
         padding-left: 80px;
     }
+    .sandwich_copy2 {
+        right: 90px;
+        bottom: -10px;
+    }
 }
 @media screen and (max-width: 1090px){
     .three-desc {
@@ -97,7 +101,7 @@
 }
 @media screen and (max-width: 770px) {
     .momento-yellow-line {
-        top: 169px;
+        top: 193px;
         left: -5px;
     }
 }
@@ -168,7 +172,7 @@
         margin-bottom: 10px;
     }
     .momento-yellow-line {
-        top: 75px;
+        top: 96px;
         left: 265px;
     }
     .arrow-pizza-slice {
@@ -299,6 +303,10 @@
     .nav-list {
         font-size: 15px;
     }
+    .sandwich_copy2 {
+        right: 65px;
+        bottom: -73px;
+    }
 }
 @media screen and (max-width: 540px) {
     .nav-list {
@@ -331,7 +339,7 @@
         font-size: 16px;
     }
     .momento-yellow-line {
-        top: 80px;
+        top: 100px;
         left: 210px;
     }
     .mf-description {
@@ -339,7 +347,7 @@
     }
     .left-block-button-box {
         margin-bottom: 20px;
-        max-width: 280px;
+        max-width: 250px;
     }
     .bitmap1 {
         display: none;
@@ -351,6 +359,7 @@
     .iphone-1 {
         left: 15px;
         top: 30px;
+        width: 250px;
     }
     .bitmap3-720 {
         display: none;
@@ -377,14 +386,16 @@
     .bitmap-end-left-mini {
         left: -140px;
         bottom: 370px;
+        z-index: 3;
     }
     .bitmap-end-left {
         left: -235px;
         bottom: -280px;
     }
     .bitmap6 {
-        right: -130px;
-        top: -380px;
+        right: -115px;
+        top: -415px;
+        z-index: 3;
     }
     .bitmap7 {
         right: -255px;
@@ -417,5 +428,34 @@
     .slider-container .slick-next {
         right: -13px;
     }
+    .slider-container {
+        max-width: 335px;
+    }
+    .slider-iphone-img {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .mobile-version {
+        margin-bottom: 230px;
+    }
+    .conteiner-description {
+        margin-bottom: 175px;
+    }
+    .app-store-badge,
+    .google-play-badge {
+        width: 115px;
+    }
+    .slider-box-img {
+        width: 310px;
+    }
+    .arrow-left {
+        left: 10px;
+        z-index: 5;
+       position: relative;
+    }
+    .arrow-right {
+        right: 15px;
+    }
+
 
 }

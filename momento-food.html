@@ -8,6 +8,8 @@
     <title>Momento food</title>
     <link rel="stylesheet" href="css/mf-style.css">
     <link rel="stylesheet" href="css/mf-style-mobile.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="./img/momento-food/ico1.png">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
@@ -132,8 +134,12 @@
                     <h2 class="title-end">MOMENTO FOOD APP</h2>
                     <p class="mf-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque blanditiis dignissimos fugit iusto officiis porro quia quo quos, repellendus tempore temporibus voluptate voluptatu</p>
                     <div class="end-description-button-box">
-                        <img class="app-store" src="img/momento-food/app-store-badge1.png" alt="">
-                        <img class="google-play" src="img/momento-food/google-play-badge1.png" alt="">
+                        <a href="#">
+                            <img class="app-store" src="img/momento-food/app-store-badge1.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="google-play" src="img/momento-food/google-play-badge1.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -164,7 +170,7 @@
                 slidesToScroll: 1,
                 dots: true,
                 // appendDots:'dots-container',
-                autoplay: false,
+                autoplay: true,
                 speed: 400,
                 fade: true,
                 arrows: true,

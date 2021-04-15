@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JoySpring</title>
     <link rel="stylesheet" href="./css/style_joyspring.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style_joyspring_mobile.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
@@ -19,7 +20,9 @@
  <div class="wrapper-all">
      <header id="header" class="header wrapper">
          <div class="menu">
-             <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
+             <a href="index.html">
+                 <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
+             </a>
              <div class="menu-list">
                  <button class="download-button" type="button">Download</button>
                  <nav id="menu" class="header-menu-box">
@@ -39,11 +42,17 @@
                  <div class="left-box">
                      <h2 class="wellness-title">Wellness App from</h2>
                      <h1 class="paul-title">Paul R. Scheele, Ph.D.</h1>
-                     <p class="orange-txt">joyspring app</p>
+                     <a href="">
+                         <p class="orange-txt">joyspring app</p>
+                     </a>
                      <p class="desk-txt">Break through daily stress in just 90 seconds and feel better every day and with every play</p>
                      <div class="left-box-img">
-                         <img class="left-img" src="./img/joy_spring/app_3x.png" alt="">
-                         <img class="left-img" src="./img/joy_spring/google_3x.png" alt="">
+                         <a href="">
+                             <img class="left-img" src="./img/joy_spring/app_3x.png" alt="">
+                         </a>
+                         <a href="">
+                             <img class="left-img" src="./img/joy_spring/google_3x.png" alt="">
+                         </a>
                      </div>
                  </div>
                  <div class="right-box">
@@ -224,7 +233,9 @@
                  </a>
              </nav>
              <div class="menu">
-                 <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
+                 <a href="index.html">
+                     <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
+                 </a>
                  <nav class="menu-list-footer">
                      <a class="footer-menu-list-description" href="#part0">About app</a>
                      <a class="footer-menu-list-description" href="#part1">Price</a>
@@ -253,8 +264,6 @@
              speed: 600,
              // fade: true,
              arrows: true,
-             /*prevArrow: "<img src='https://svgshare.com/i/6Ei.svg' class='prev' alt='1'>",
-             nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",*/
              prevArrow: "<button type='button' class='arrow arrow-left'></button>",
              nextArrow: "<button type='button' class='arrow arrow-right'></button>",
              responsive: [
@@ -266,9 +275,6 @@
                          infinite: true,
                      }
                  },
-                 // You can unslick at a given breakpoint now by adding:
-                 // settings: "unslick"
-                 // instead of a settings object
              ]
          });
      });
