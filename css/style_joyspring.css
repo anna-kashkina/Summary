@@ -29,7 +29,6 @@
 }
 .wrapper {
     max-width: 1200px;
-    /*width: 100%;*/
     margin: 0 auto;
 }
 .header {
@@ -50,7 +49,6 @@
 .header-logo {}
 .menu {
     display: flex;
-    /*align-items: flex-end;*/
     justify-content: space-between;
     width: 100%;
 }
@@ -110,7 +108,7 @@
 }
 .knife-down {
     width: 100%;
-    bottom: 150px;
+    bottom: 102px;
     position: absolute;
 }
 .left-box {
@@ -416,7 +414,7 @@
     background: url(../img/joy_spring/knife_up.png) 0 0 no-repeat;
     background-size: cover;
 }
-.about-dr-sheele:after {
+/*.about-dr-sheele:after {
     position: absolute;
     z-index:3;
     content: "";
@@ -425,6 +423,13 @@
     width: 100%;
     background: url(../img/joy_spring/knife_down.png) 0 0 no-repeat;
     background-size: contain;
+}*/
+.forest-dr-sheel-knife {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
 }
 .about-dr-sheele-container {
     display: flex;
@@ -469,6 +474,7 @@
     height: 385px;
     background-size: cover;
     position: relative;
+    padding-bottom: 60px;
 }
 .footer:before {
     position: absolute;
