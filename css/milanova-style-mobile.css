@@ -1,0 +1,349 @@
+@media screen and (max-width: 1601px) {
+    .slider-invisible {
+        width: 160px;
+    }
+    .slider-invisible-right {
+        right: 0;
+        width: 200px;
+    }
+    .arrow-right {
+        right: 120px;
+    }
+    .arrow-left {
+        left: 62px;
+    }
+}
+@media screen and (max-width: 1430px) {
+    .slider-invisible-right {
+        width: 175px;
+    }
+    .why-we-img {
+        display: none;
+    }
+    .why-we-container {
+        margin-left: 0;
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width: 1325px) {
+    .slider-invisible-right {
+        width: 160px;
+    }
+    .register-img{
+        display: none;
+    }
+    .register-container {
+        margin-left: 0;
+    }
+    .register-title {
+        font-size: 32px;
+        line-height:inherit;
+    }
+    .register {
+        margin-bottom: 115px;
+    }
+    .about-milanova {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 1245px) {
+    .slider-invisible-right {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .special-offer-wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0 32px;
+    }
+    .special-offer-left-container {
+        margin-bottom: 250px;
+        padding-left: 180px;
+    }
+    .special-offer-border {
+        max-width: 590px;
+        left: 118px;
+        width: 100%;
+    }
+    .special-title, .special-title-right {
+        font-size: 32px;
+    }
+    .about-milanova-img_main {
+        background: url(../img/milanova/maskgroup2.jpg) -125px 0 no-repeat;
+    }
+    .register-container,
+    .footer-menu-container,
+    .header-menu-container {
+        padding: 0 25px;
+    }
+    .about-milanova {
+        padding: 0 25px;
+    }
+    .slider-section-desc {
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .header-upper-item {
+        display: none;
+    }
+    .header-container-upper {
+        max-width: 360px;
+    }
+
+}
+@media screen and (max-width: 1105px) {
+    .about-milanova-img {
+        display: none;
+    }
+    .about-milanova-img-minus {
+        display: none;
+        /*display: block;*/
+        position: absolute;
+        top: 0;
+        right: -470px;
+    }
+}
+@media screen and (max-width: 1066px) {
+    .slider-invisible-right {
+        width: 174px;
+    }
+    .footer-nav {
+        max-width: 653px;
+    }
+    .why-we-box-inner {
+        margin: 0 auto 20px;
+    }
+    .header-upper-box-container {
+        max-width: 375px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .header-nav {
+        display: none;
+    }
+    .header-menu:hover .header-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 25px;
+        left: -26px;
+        z-index: 3;
+        padding-top: 15px;
+    }
+    .header-menu {
+        position: relative;
+        max-width: 185px;
+        justify-content: center;
+    }
+    .header-nav-item {
+        padding-bottom: 10px;
+    }
+    .header-nav-item:hover {
+        color: #ff4c00;
+        transition: .3s;
+    }
+}
+@media screen and (max-width: 988px) {
+    .slider-invisible-right {
+        width: 161px;
+    }
+    .about-milanova-img_main {
+        background: url(../img/milanova/maskgroup2.jpg) -188px 0 no-repeat;
+    }
+}
+@media screen and (max-width: 965px) {
+    .slider-invisible-right {
+        max-width: 235px;
+    }
+    .footer-nav {
+        display: none;
+    }
+    .footer-container-under {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .header-upper-box-container  {
+        display: flex;
+        justify-content: space-between;
+        max-width: 320px;
+    }
+    .footer-upper {
+        max-width: 445px;
+        padding-top: 15px;
+    }
+    .footer-menu-container {
+        display: flex;
+    }
+    .footer-container {
+        width: 22%;
+    }
+}
+@media screen and (max-width: 860px) {
+    .about-milanova-img_main {
+        background: url(../img/milanova/maskgroup2.jpg) -270px 0 no-repeat;
+    }
+}
+@media screen and (max-width: 788px) {
+    .slider-invisible-right {
+        width: 193px;
+    }
+    .special-title-right {
+        padding-left: 25px;
+    }
+    .special-offer-border {
+        left: 78px;
+    }
+    .special-offer-left-container {
+        padding-left: 137px;
+    }
+}
+@media screen and (max-width: 762px) {
+    .register-input {
+        max-width: inherit;
+    }
+    .about-milanova-img_main {
+        display: none;
+    }
+    .about-milanova-desc {
+        max-width: 635px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    .header {
+        margin-bottom: 65px;
+    }
+    .slider-invisible-right {
+        width: 234px;
+    }
+    .special-offer-left-container {
+        padding-left: 105px;
+        margin-bottom: 145px;
+    }
+    .special-offer-border {
+        left: 50px;
+
+    }
+    .special-title-right {
+        padding-left: 25px;
+    }
+    .header-upper-item {
+        display: none;
+    }
+    .header-container-upper {
+        max-width: 310px;
+    }
+
+    .register-form {
+        flex-direction: column;
+    }
+    .register-input {
+        width: auto;
+    }
+    .button-offer-f {
+        max-width: 593px;
+    }
+    .number-box-register {
+        flex-wrap: wrap;
+    }
+    .footer-menu-container {
+        flex-direction: column;
+    }
+    .footer-container-under {
+        margin: 0 auto;
+    }
+    .header-upper-box-container {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .footer-container {
+        margin: 0 auto 50px;
+    }
+    .header-upper-box {
+        margin-bottom: 15px;
+    }
+    .footer-upper {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 639px) {
+    .number-box-sub {
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .footer-container-under {
+        max-width: 455px;
+        /*padding-top: 80px;*/
+        margin: 0 auto;
+    }
+    .special-offer-left-container {
+        padding-left: 63px;
+    }
+}
+@media screen and (max-width: 595px) {
+    .slider-invisible-right {
+        width: 192px;
+    }
+    .special-offer-border {
+        max-width: 400px;
+        /*left: 30px;*/
+    }
+
+}
+@media screen and (max-width: 529px) {
+    .slider-invisible-right {
+        width: 170px;
+    }
+    .header-container-upper {
+        margin-bottom: 25px;
+    }
+    .special-title {
+        font-size: 20px;
+        /*padding-left: 20px;*/
+    }
+    /*------------------------------------*/
+    .special-offer-left-container {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .header-container-upper {
+        max-width: inherit;
+    }
+    .footer {
+        padding-top: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .slider-invisible {
+        display: none;
+    }
+    .slider-container {
+        transform: translateX(42px);
+    }
+    .special-offer-border {
+        left: 27px;
+    }
+}
+@media screen and (max-width: 408px) {
+    .special-offer-border {
+        height: 440px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .header-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-container-upper {
+        flex-wrap: wrap;
+    }
+}
