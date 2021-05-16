@@ -104,6 +104,9 @@
         top: 193px;
         left: -5px;
     }
+    .app-link {
+        margin-right: 15px;
+    }
 }
 @media screen and (max-width: 720px){
     .left-block {
@@ -319,6 +322,9 @@
     .nav-footer-box {
         margin: 0 auto;
     }
+    .iphone-1 {
+        max-width: 250px;
+    }
 }
 @media screen and (max-width: 480px) {
     .red-line {
@@ -432,7 +438,7 @@
         max-width: 335px;
     }
     .slider-iphone-img {
-        width: 250px;
+        width: 235px;
         margin: 0 auto;
     }
     .mobile-version {

@@ -34,7 +34,7 @@
 .header {
     display: flex;
     margin-bottom: 100px;
-    padding-top: 50px;
+    padding-top: 48px;
     position: relative;
     z-index: 2;
 }
@@ -46,7 +46,9 @@
     margin-top: -218px;
     margin-bottom: 100px;
 }
-.header-logo {}
+.header-logo:hover {
+    cursor: url(../img/sammary/cursor-hand_2.png), pointer;
+}
 .menu {
     display: flex;
     justify-content: space-between;

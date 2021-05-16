@@ -34,6 +34,9 @@
 .header-menu-logo {
     height: 0;
 }
+.header-menu-logo:hover {
+    cursor: url(../img/sammary/cursor-hand_2.png), pointer;
+}
 .header-menu-list {
     max-width: 500px;
     width: 100%;

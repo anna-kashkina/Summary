@@ -60,21 +60,29 @@
     .wrapper {
         /*max-width: 600px;*/
     }
+    .download-button {
+        padding: 10px 58px 10px 10px;
+    }
+    .menu-list-description:hover {
+        color: white;
+    }
     .header-menu-box {
         flex-direction: column;
         display: none;
+        min-width: 130px;
     }
     .menu-list:hover .header-menu-box {
-        display: block;
+        display: flex;
         position: absolute;
         top: 32px;
-        right: -24px;
+        right: -6px;
         padding-top: 10px;
     }
     .menu-list-description {
         padding: 10px;
         background-color: blue;
         border-radius: 5px;
+        margin-bottom: 5px;
     }
     .forest-bg:after {
         background-size: contain;
