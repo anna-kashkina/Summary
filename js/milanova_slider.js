@@ -50,7 +50,24 @@ $(document).ready(function(){
                     }
 
                 },
+                {
+                    breakpoint: 350,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                    }
+
+                },
             ]
 
         });
     });
+    $(document).ready(function(){
+        $("#menu, #up-arrow").on("click","a", function (event) {
+            event.preventDefault();
+            let id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+    });
+

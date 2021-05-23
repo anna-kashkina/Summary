@@ -91,7 +91,6 @@
     .header-container-upper {
         max-width: 360px;
     }
-
 }
 @media screen and (max-width: 1105px) {
     .about-milanova-img {
@@ -178,9 +177,6 @@
     }
     .footer-menu-container {
         display: flex;
-    }
-    .footer-container {
-        width: 22%;
     }
 }
 @media screen and (max-width: 860px) {
@@ -272,6 +268,21 @@
         margin: 0 auto;
         text-align: center;
     }
+    .up-arrow {
+        position: fixed;
+        top: 640px;
+        right: 50px;
+        cursor: pointer;
+        z-index: 5;
+        border-radius: 4px;
+        background-color: inherit;
+        outline: none;
+        border: solid #492e2e;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 10px;
+        transform: rotate(-135deg);
+    }
 }
 @media screen and (max-width: 639px) {
     .number-box-sub {
@@ -294,6 +305,9 @@
     .special-offer-border {
         max-width: 400px;
         /*left: 30px;*/
+    }
+    .special-offer-img {
+        left: -58px;
     }
 
 }
@@ -321,16 +335,19 @@
         margin-bottom: 40px;
     }
 }
-
 @media screen and (max-width: 497px) {
     .slider-invisible {
         display: none;
     }
     .slider-container {
-        transform: translateX(42px);
+        transform: translateX(20px);
     }
     .special-offer-border {
         left: 27px;
+    }
+    .special-offer-img {
+        left: -185px;
+        opacity: 0.3;
     }
 }
 @media screen and (max-width: 408px) {
@@ -345,5 +362,13 @@
     }
     .header-container-upper {
         flex-wrap: wrap;
+    }
+    .button {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .slider-container {
+        transform: translateX(88px);
     }
 }

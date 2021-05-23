@@ -107,6 +107,10 @@
     .app-link {
         margin-right: 15px;
     }
+    .momento-yellow-line {
+        top: 155px;
+        left: 180px;
+    }
 }
 @media screen and (max-width: 720px){
     .left-block {
@@ -123,7 +127,7 @@
      .bitmap2-720 {
         display: block;
         position: absolute;
-        bottom: 225px;
+        bottom: 200px;
          right: 0;
     }
     .bitmap3-720 {
@@ -325,6 +329,12 @@
     .iphone-1 {
         max-width: 250px;
     }
+    .bitmap3-720 {
+        bottom: 40px;
+    }
+    .bitmap2-720 {
+        bottom: 50px;
+    }
 }
 @media screen and (max-width: 480px) {
     .red-line {
@@ -374,7 +384,7 @@
         display: block;
         position: absolute;
         bottom: 170px;
-        left: 0;
+        left: -17px;
     }
     .momento-deliver-knif {
         top: 615px;
@@ -464,4 +474,27 @@
     }
 
 
+}
+@media screen and (max-width: 390px) {
+    .left-block {
+        padding: 0 16px;
+    }
+    .iphone-1 {
+        width: 235px;
+    }
+    .momento-delivery {
+        margin-bottom: 115px;
+    }
+    .end-description {
+        padding: 0 16px;
+    }
+    .google-play, .app-store {
+        width: 120px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .three-desc {
+        padding: 0 16px;
+        margin-bottom: 0;
+    }
 }

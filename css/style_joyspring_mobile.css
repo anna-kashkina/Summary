@@ -242,9 +242,6 @@
     .easy-to-use-container:after {
         bottom: -215px;
     }
-/*    .about-dr-sheele:after {
-        bottom: -200px;
-    }*/
     .footer-nav {
         padding-top: 140px;
     }
@@ -261,12 +258,14 @@
     }
     .txt-end {
         padding-right: 10px;
+        display: flex;
+    }
+    .up-arrow {
+        top: 660px;
     }
     .menu {
         margin-bottom: 25px;
     }
-
-
 }
 @media (max-width: 760px) {
     .photo-dr-sheele {
@@ -315,14 +314,14 @@
     .our-happy-users:after {
         bottom: 118px
     }
-/*    .about-dr-sheele:after {
-        bottom: -275px;
-    }*/
+    .right-box-mob-1, .right-box-mob-2 {
+        width: 290px;
+    }
 }
 @media (max-width: 525px) {
-/*    .about-dr-sheele:after {
-        bottom: -310px;
-    }*/
+    .download {
+        padding: 0 16px;
+    }
 }
 @media (max-width: 500px) {
     .about-dr-sheele:before {
@@ -335,6 +334,9 @@
 @media (max-width: 470px) {
     .our-happy-users:after {
         bottom: 98px
+    }
+    .easy-to-use-container:after {
+        bottom: -260px;
     }
 }
 @media (max-width: 460px) {
@@ -393,5 +395,43 @@
     /*.menu {*/
     /*    margin-bottom: 25px;*/
     /*}*/
+    .download-button {
+        padding: 9px 30px 11px 10px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .left-box {
+        padding: 0 16px;
+    }
+    .download-button {
+        padding-left: 25px;
+    }
+    .right-box-mob-1, .right-box-mob-2 {
+        width: 250px;
+        height: 435px;
+    }
+    .forest-bg {
+        margin-bottom: 155px;
+    }
+    .easy-to-use-iphone {
+        height: 465px;
+    }
+    .easy-box {
+        margin-bottom: 30px;
+    }
+    .easy-to-use-container:after {
+        bottom: -273px;
+    }
+}
+@media (max-width: 350px) {
+    .easy-to-use-container:after {
+        bottom: -285px;
+    }
+}
+@media (max-width: 340px) {
+    .forest-bg {
+        margin-bottom: 190px;
+    }
 }
 
