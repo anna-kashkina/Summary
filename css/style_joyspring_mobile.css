@@ -347,7 +347,8 @@
         margin-bottom: 65px;
     }
     .knife-down {
-        display: none;
+        /*display: none;*/
+        bottom: 130px;
     }
     .left-box {
         padding-left: 0;
@@ -398,6 +399,9 @@
     .download-button {
         padding: 9px 30px 11px 10px;
         margin-left: 50px;
+    }
+    .up-arrow {
+        width: 50px;
     }
 }
 @media (max-width: 400px) {

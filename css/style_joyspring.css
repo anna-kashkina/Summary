@@ -232,7 +232,7 @@
 }
 .easy-to-use-box {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
@@ -500,7 +500,7 @@
 }
 .up-arrow {
     position: fixed;
-    top: 780px;
+    top: 730px;
     right: 50px;
     cursor: pointer;
     z-index: 5;
