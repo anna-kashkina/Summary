@@ -110,6 +110,13 @@
     .secret {
         padding: 50px 0 140px 0;
     }
+    .up-arrow {
+        height: 50px;
+        position: absolute;
+        top: -100px;
+        right: 35px;
+        display: block;
+    }
 }
 @media screen and (max-width: 635px) {
     .nav-descr {
@@ -139,6 +146,9 @@
     }
     .footer-nav-box {
         padding-bottom: 75px;
+    }
+    .up-arrow {
+        top: 105px;
     }
 
 }

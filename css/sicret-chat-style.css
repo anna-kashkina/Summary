@@ -292,6 +292,9 @@
 .slider-container .slick-dots li button:before {
  color: yellow!important;
 }
+.up-arrow {
+    display: none;
+}
 
 
 

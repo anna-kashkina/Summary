@@ -171,6 +171,7 @@
     .our-happy-users {
         background-color: white;
         padding-top: 50px;
+        min-height: 50px;
     }
     .slider-container {
         max-width: 400px;
@@ -321,6 +322,12 @@
 @media (max-width: 525px) {
     .download {
         padding: 0 16px;
+    }
+    .arrow-right {
+        right: 80px;
+    }
+    .arrow-left {
+        left: 75px;
     }
 }
 @media (max-width: 500px) {
