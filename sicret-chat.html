@@ -15,16 +15,16 @@
     <script src="./jquery-1.11.1.min/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-    <header class="header" id="header">
+    <header id="header-anchor" class="header">
         <nav class="header-menu wrapper">
             <a class="header-menu-logo" href="index.html">
                 <img src="./img/sicret-chat/logo.svg" alt="">
             </a>
-            <div class="header-menu-list">
+            <nav id="menu-nav" class="header-menu-list">
                 <a class="menu-list" href="#benefits">Преимущества</a>
                 <a class="menu-list" href="#capabilities">Возможности</a>
                 <a class="menu-list menu-list-yellow-btn" href="#download">Скачать приложение</a>
-            </div>
+            </nav>
         </nav>
     </header>
     <main class="main">
@@ -164,7 +164,7 @@
             </nav>
         </div>
         <div class="scroll-arrow" id="scroll-up">
-            <a class="up-arrow" href="#header">
+            <a class="up-arrow" href="#header-anchor">
                 <!--            <img class="up-arrow" src="img/sicret-chat/chevron-up-font-awesome.png" alt="">-->
                 <i class="fas fa-chevron-up"></i>
             </a>
@@ -206,7 +206,7 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header, #scroll-up").on("click","a", function (event) {
+            $("#menu-nav, #scroll-up").on("click","a", function (event) {
                 event.preventDefault();
                 let id  = $(this).attr('href'),
                     top = $(id).offset().top;
