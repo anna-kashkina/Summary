@@ -336,6 +336,20 @@
     }
 }
 @media screen and (max-width: 497px) {
+    .special-offer-wrapper {
+        padding: 0 25px;
+    }
+    .number-box {
+        flex-wrap: wrap;
+    }
+    .number-box-item {
+        min-width: 38px;
+        margin: 0 auto 24px;
+    }
+    .special-offer-left-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     .slider-invisible {
         display: none;
     }
@@ -365,6 +379,9 @@
     }
     .button {
         margin-left: 0;
+    }
+    .button-offer {
+        width: auto;
     }
 }
 @media screen and (max-width: 350px) {
