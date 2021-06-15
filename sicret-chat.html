@@ -12,6 +12,7 @@
     <link rel="icon" href="./img/sicret-chat/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="./jquery-1.11.1.min/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     <header class="header" id="header">
@@ -20,9 +21,9 @@
                 <img src="./img/sicret-chat/logo.svg" alt="">
             </a>
             <div class="header-menu-list">
-                <a class="menu-list" href="">Преимущества</a>
-                <a class="menu-list" href="">Возможности</a>
-                <a class="menu-list menu-list-yellow-btn" href="">Скачать приложение</a>
+                <a class="menu-list" href="#benefits">Преимущества</a>
+                <a class="menu-list" href="#capabilities">Возможности</a>
+                <a class="menu-list menu-list-yellow-btn" href="#download">Скачать приложение</a>
             </div>
         </nav>
     </header>
@@ -63,7 +64,7 @@
             </div>
         </section>
         <section class="desc-container">
-            <div class="description-container wrapper">
+            <div class="description-container wrapper" id="benefits">
                 <div class="desc-container-box">
                     <img class="box-img" src="./img/sicret-chat/confidentiality.svg" alt="">
                     <h3 class="container-box-title">КОНФИДЕНЦИАЛЬНОСТЬ ДАНЫХ</h3>
@@ -81,7 +82,7 @@
                 </div>
             </div>
         </section>
-        <section class="desc-mobile-container">
+        <section class="desc-mobile-container" id="capabilities">
             <div class="desc-mobile-slider wrapper">
                 <div class="desc-mobile-box dmb-left">
                     <div class="left-box">
@@ -126,7 +127,7 @@
             </div>
             </div>
         </section>
-        <section class="secret-mess-container">
+        <section id="download" class="secret-mess-container">
             <div class="secret-mess-box">
               <div class="shield-messenger"></div>
                 <a href="#">
@@ -162,14 +163,18 @@
                 <a class="nav-descr" href="">sec-ret.com</a>
             </nav>
         </div>
-        <a href="#header">
-            <img class="up-arrow" src="img/sicret-chat/chevron-up-font-awesome.png" alt="">
-            <i class="fas fa-chevron-up"></i>
-        </a>
+        <div class="scroll-arrow" id="scroll-up">
+            <a class="up-arrow" href="#header">
+                <!--            <img class="up-arrow" src="img/sicret-chat/chevron-up-font-awesome.png" alt="">-->
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -196,6 +201,16 @@
                 arrows: true,
                 prevArrow: "<button type='button' class='arrow arrow-left'></button>",
                 nextArrow: "<button type='button' class='arrow arrow-right'></button>",
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header, #scroll-up").on("click","a", function (event) {
+                event.preventDefault();
+                let id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 800);
             });
         });
     </script>

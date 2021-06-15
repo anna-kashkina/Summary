@@ -28,11 +28,9 @@
 .header-menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     margin-bottom: 100px;
-}
-.header-menu-logo {
-    height: 0;
 }
 .header-menu-logo:hover {
     cursor: url(../img/sammary/cursor-hand_2.png), pointer;
@@ -42,7 +40,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
 }
 .menu-list {
     text-decoration: none;
@@ -187,8 +184,8 @@
 }
 .footer {
     background-color: #222831;
-    min-height: 80px;
     position: relative;
+    padding-bottom: 55px;
 }
 .secret-mess-container {
     background-color: #222831;
@@ -295,6 +292,7 @@
 .up-arrow {
     display: none;
 }
+
 
 
 
