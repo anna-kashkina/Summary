@@ -20,7 +20,7 @@
  <div class="wrapper-all">
      <header id="header" class="header wrapper">
          <div class="menu">
-             <a href="index.html">
+             <a class="logo-box" href="index.html">
                  <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
              </a>
              <div class="menu-list">
@@ -202,23 +202,23 @@
                  </figure>
                  <figure class="slider-figure">
                      <h2 class="name-user">Sersey Lanister</h2>
-                     <p class="slider-desk">Bitch with gorgeous hair.</p>
+                     <p class="slider-desk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                  </figure>
                  <figure class="slider-figure">
-                     <h2 class="name-user">Gregory House</h2>
-                     <p class="slider-desk">self-centered maniac.</p>
+                     <h2 class="name-user">Gregory Nolan</h2>
+                     <p class="slider-desk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                  </figure>
                  <figure class="slider-figure">
-                     <h2 class="name-user">Ned Stark</h2>
-                     <p class="slider-desk">headless dude who gets killed all the time.</p>
+                     <h2 class="name-user">Ned Broun</h2>
+                     <p class="slider-desk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                  </figure>
                  <figure class="slider-figure">
-                     <h2 class="name-user">John Snow</h2>
-                     <p class="slider-desk">Man in a beautiful fur coat .</p>
+                     <h2 class="name-user">John Dou</h2>
+                     <p class="slider-desk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                  </figure>
                  <figure class="slider-figure">
-                     <h2 class="name-user">Germiona Grainger</h2>
-                     <p class="slider-desk">For what?</p>
+                     <h2 class="name-user">Lidia Grain</h2>
+                     <p class="slider-desk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                  </figure>
              </div>
          </div>
@@ -258,11 +258,11 @@
                     <img class="up-arrow" src="./img/joy_spring/upArrow.png" alt="">
                  </a>
              </nav>
-             <div class="menu">
+             <div class="menu-footer">
                  <a href="index.html">
                      <img class="header-logo" src="./img/joy_spring/logo.svg" alt="">
                  </a>
-                 <nav class="menu-list-footer">
+                 <nav id="menu-footer" class="menu-list-footer">
                      <a class="footer-menu-list-description" href="#part0">About app</a>
                      <a class="footer-menu-list-description" href="#part1">Price</a>
                      <a class="footer-menu-list-description" href="#part2">Testimonials</a>
@@ -339,7 +339,7 @@
  </script>
   <script type="text/javascript">
      $(document).ready(function(){
-         $("#menu, #up-arrow").on("click","a", function (event) {
+         $("#menu, #menu-footer, #up-arrow").on("click","a", function (event) {
              event.preventDefault();
              let id  = $(this).attr('href'),
                  top = $(id).offset().top;

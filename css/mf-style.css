@@ -35,7 +35,7 @@
     background-size: contain;
     top: 20px;
 }
-.logo:hover {
+.link-summary:hover {
     cursor: url(../img/sammary/cursor-hand_2.png), pointer;
 }
 .home {
